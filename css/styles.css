@@ -1,0 +1,34 @@
+/* .main-title {
+  color: burlywood;
+  border: 4px solid black;
+  background-color: blueviolet;
+}
+#h1 {
+  color: aqua;
+  border: 4px solid black;
+  background-color: blue;
+} */
+.button {
+  color: #faf4ea;
+  border: 2px solid #819b57;
+  border-radius: 8px;
+  background-color: #819b57;
+}
+.button:hover {
+  color: #819b57;
+  background-color: transparent;
+  border: 2px solid #819b57;
+}
+.button:focus {
+  color: #819b57;
+  background-color: transparent;
+  border: 2px solid #819b57;
+}
+.button-order[disabled] {
+  color: darkgray;
+  border: 2px;
+  background-color: darkslategrey;
+}
+.main-section {
+  color: blue;
+}
