@@ -1,34 +1,64 @@
-/* .main-title {
-  color: burlywood;
-  border: 4px solid black;
-  background-color: blueviolet;
+:root {
+  --primary-dark: #31261a;
+  --primary-light: #faf4ea;
+  --color-brand: #819b57;
+  --color-brand-dark: #465929;
 }
-#h1 {
-  color: aqua;
-  border: 4px solid black;
-  background-color: blue;
-} */
+/* Base styles */
+ul {
+  list-style-type: none;
+}
+body {
+  color: var(--primary-dark);
+}
+
+/* Buttons */
 .button {
-  color: #faf4ea;
-  border: 2px solid #819b57;
+  color: var(--primary-light);
+  background-color: var(--color-brand);
+  border: 2px solid var(--color-brand);
   border-radius: 8px;
-  background-color: #819b57;
+  cursor: pointer;
 }
 .button:hover {
-  color: #819b57;
+  color: var(--color-brand-dark);
   background-color: transparent;
-  border: 2px solid #819b57;
+  border: 2px solid var(--color-brand-dark);
 }
 .button:focus {
-  color: #819b57;
+  color: var(--primary-light);
   background-color: transparent;
-  border: 2px solid #819b57;
+  border: 2px solid var(--color-brand);
 }
 .button-order[disabled] {
   color: darkgray;
   border: 2px;
   background-color: darkslategrey;
 }
-.main-section {
-  color: blue;
+/* Links */
+.link {
+  color: var(--primary-light);
+}
+.link:hover {
+  color: var(--color-brand);
+}
+.hero-title {
+  color: var(--primary-light);
+}
+.hero-title .accent {
+  color: #819956;
+}
+/* Advanteges-section */
+.advanteges-list {
+  color: var(--primary-light);
+  background-color: var(--color-brand);
+}
+.section-title {
+  color: var(--primary-dark);
+}
+.section-title .accent {
+  color: var(--color-brand-dark);
+}
+.footer-link {
+  color: var(--primary-light);
 }
