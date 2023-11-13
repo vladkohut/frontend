@@ -4,11 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Сучасна пекарня</title>
-    <style>
-      /* h1 {
-        background-color: blueviolet;
-      } */
-    </style>
+    <!-- ------------------------------------------------------------------------- -->
+
+    <!-- ------------------------------------------------------------------------- -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -46,18 +44,19 @@
       </section>
       <section id="tradicions-sections">
         <ul class="advanteges-list">
-          <li>Великий попит на ринку</li>
-          <li>Доступні за бюджетом формати</li>
-          <li>Досвідчена управлінська команда</li>
+          <li class="advanteges-item">Великий попит на ринку</li>
+          <li class="advanteges-item">Доступні за бюджетом формати</li>
+          <li class="advanteges-item">Досвідчена управлінська команда</li>
         </ul>
         <h2 class="section-title">Новий формат традицій</h2>
-        <p>
-          <span>shop bakery</span> — це пекарня, яка взяла все найкраще, і
-          зберегла смак традиційної випічки та натуральність інгредієнтів.
+        <p class="tradicions-text">
+          <span class="brand-uppercase">shop bakery</span> — це пекарня, яка
+          взяла все найкраще, і зберегла смак традиційної випічки та
+          натуральність інгредієнтів.
         </p>
-        <p>
+        <p class="tradicions-text">
           Ми працюємо як найвідоміші мережі —
-          <span>5 хвилин і замовлення готове. </span>
+          <span class="brand">5 хвилин і замовлення готове. </span>
           А ще у наших пекарень стильний дизайн та висока якість обслуговування!
         </p>
         <img
@@ -72,7 +71,7 @@
         <ul>
           <li>
             <article>
-              <h3>Настя</h3>
+              <h3 class="chef-title">Настя</h3>
               <p>Привіт, я Настя!</p>
               <p>Вже 10 років, я свтілюю у життя цікаві та смачні ідеї.</p>
               <p>Я випічу для вас найсмачніщі вироби!</p>
@@ -80,7 +79,7 @@
           </li>
           <li>
             <article>
-              <h3>Влад</h3>
+              <h3 class="chef-title">Влад</h3>
               <p>Привіт, я Влад!</p>
               <p>
                 Мій кодитерський стаж вже 18 років.SHOP BEKERY - це наша любов,
@@ -96,17 +95,38 @@
         <ul>
           <li>
             <article>
-              <h3 lang="en">Walrus</h3>
+              <h3 class="format-title" lang="en">Walrus</h3>
+              <div class="format-tex">
+                <p>Площа: до 120 м2</p>
+                <p>Меню: розширене меню</p>
+                <p>
+                  Штат: 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2
+                  офіціанти-різнороби Посадкові
+                </p>
+                <p>місця: є</p>
+              </div>
             </article>
           </li>
           <li>
             <article>
-              <h3 lang="en">Horseshoe</h3>
+              <h3 class="format-title" lang="en">Horseshoe</h3>
+              <div class="format-tex">
+                <p>Площа: до 25 м2</p>
+                <p>Меню: найпопулярніші позиції меню</p>
+                <p>Штат: 2 продавці-касири, 2 пекарі, 1 помічник пекаря</p>
+                <p>Посадкові місця: відсутні</p>
+              </div>
             </article>
           </li>
           <li>
             <article>
-              <h3 lang="en">Handlebar</h3>
+              <h3 class="format-title" lang="en">Handlebar</h3>
+              <div class="format-tex">
+                <p>Площа: до 15 м2</p>
+                <p>Меню: найпопулярніші позиції меню</p>
+                <p>Штат: 1 продавець, 1 пекар, 1 помічник пекаря</p>
+                <p>Посадкові місця: відсутні</p>
+              </div>
             </article>
           </li>
         </ul>
@@ -130,26 +150,37 @@
         </a>
         <ul>
           <li>
-            <a class="footer-link" href="#" target="_blank">Шеф-кухарі</a>
+            <a class="link" href="#" target="_blank">Шеф-кухарі</a>
           </li>
-          <li><a class="footer-link" href="#" target="_blank">Формати</a></li>
+          <li><a class="link" href="#" target="_blank">Формати</a></li>
           <li>
-            <a class="footer-link" href="#" target="_blank"> Наші традиції</a>
+            <a class="link" href="#" target="_blank"> Наші традиції</a>
           </li>
-          <li><a class="footer-link" href="#" target="_blank">Контакти</a></li>
+          <li><a class="link" href="#" target="_blank">Контакти</a></li>
         </ul>
       </nav>
       <address>
         <ul>
-          <li><a href="tel:+380960000007">+ 38 (096) 000 00 07</a></li>
           <li>
-            <a href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</a>
+            <a class="address-link" href="tel:+380960000007"
+              >+ 38 (096) 000 00 07</a
+            >
           </li>
           <li>
-            <a href="https://maps.app.goo.gl/PXU4t8xw4xwvBnFk7" target="_blank"
+            <a class="address-link" href="mailto:shopbakery@gmail.com"
+              >shopbakery@gmail.com</a
+            >
+          </li>
+          <li>
+            <a
+              class="address-link"
+              href="https://maps.app.goo.gl/PXU4t8xw4xwvBnFk7"
+              target="_blank"
               >Україна, м. Київ, вул. Січових Стрільців 54
             </a>
           </li>
+          <img src="/images/facebook_logo_32x32.svg" alt="Fasebook-Logo" />
+          <img src="/images/instagram_logo_32x32.png" alt="Instagramm-Logo" />
           <li>
             <a href="#">
               <!-- Facebook icon-->
@@ -161,8 +192,10 @@
             </a>
           </li>
         </ul>
-        <a href="#" target="_blank">Політика конфіденційності</a>
-        <p>&copy;2022 Дані захищені</p>
+        <a class="footer-politic" href="#" target="_blank"
+          >Політика конфіденційності</a
+        >
+        <p class="footer-data">&copy;2022 Дані захищені</p>
       </address>
     </footer>
   </body>
