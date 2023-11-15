@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+.item {
+  flex-basis: 100px;
+  height: 100px;
+  background-color: burlywood;
+  padding: 10px;
+  border: 6px solid darkred;
+  margin: 10px;
+  /* font-size: 28px;
+  text-align: center;
+  display: inline-block; */
+
+  /* padding-top: 16px;
+  padding-right: 42px;
+  padding-bottom: 16px;
+  padding-left: 42px; */
+
+  /* padding: 16px 42px; якщо відступи топ ботом та лефт райт однакові*/
+  /* padding: 16px 42px 16px 42px; */
+
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+/* .box:last-child {
+  background-color: gold;
+}
+.box:not(:last-child) {
+  background-color: bisque;
+}
+.box:nth-child(3),
+.box:nth-child(4) {
+  background-color: brown;
+}
+.box:nth-child(odd) {
+  color: blue;
+}
+.box:nth-child(even) {
+  color: blueviolet;
+}
+.box:nth-child(2n + 2) {
+  border-radius: 20px;
+} */
+/* .item:nth-child(2n + 2) {
+  height: 200px;
+} */
+.item:nth-child(2) {
+  flex-shrink: 0;
+}
+.item:nth-child(3) {
+  flex-grow: 4;
+}
